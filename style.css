@@ -1,0 +1,411 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    border:none
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+#header{
+    background: #191919;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background: rgba(166,166,160,0.1);
+    backdrop-filter: blur(3px);
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 2300px;
+}
+.header-title{
+    display: flex;
+}
+.header-img{
+    position: absolute;
+    left: 15px;
+    top:20px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.header-title a{
+    font-weight: 400;
+    font-size: 17px;
+    color: #118DA8;
+    padding: 5px 15px;
+}
+.header-title h2{
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    padding: 5px 15px;
+}
+#hero{
+    background: #191919;
+    padding: 50px 0;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero img{
+    animation:img 2s ease-in-out;
+}
+@keyframes img {
+    0%{
+       transform: translateX(-500px);
+          }
+
+}
+
+.hero-title h1{
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+}
+.hero-title span{
+    font-weight: 700;
+    font-size: 80px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+}
+.hero-img h3{
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 80px 0 30px 0;
+}
+
+.image{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 500px;
+    animation: drone 2s ease-in-out;
+}
+@keyframes drone {
+    0% {
+        transform: translateX(800px);
+    }
+}
+. button{
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    height: 54px;
+    width: 180px;
+    background: #118DA8;
+    border-radius: 6px;
+}
+#blocks {
+    background: #191919;
+    padding: 50px 0;
+    /*width: 100px;*/
+}
+.blocks {
+    background: #191919;
+    width: 100%;
+    padding: 50px 0;
+}
+.block-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1600px;
+    padding-bottom: 50px;
+}
+.block-header h1{
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+.block-header button{
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    height: 51px;
+    background: #118DA8;
+    border-radius: 6px;
+    width: 190px;
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    border-radius: 10px;
+    width: 1240px;
+    padding: 30px 0;
+    margin: 50px;
+}
+.blocks-title btn{
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    height: 120px;
+    width: 120px;
+    background: #191919;
+    border-radius: 2px;
+}
+.blocks-title h3{
+    font-weight: 400;
+    font-size: 17px;
+    color: #118DA8;
+    padding: 30px 0;
+}
+.blocks-title h1{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.blocks-title p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 30px;
+}
+.blocks-title button{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    height: 51px;
+    width: 200px;
+    background: #118DA8;
+    border-radius: 6px;
+}
+.block-header button:hover{
+    background: transparent;
+    border: 2px solid #FF4343;
+    transform: scale(0.9);
+}
+.blocks-title button:hover{
+    background: transparent;
+    border: 2px solid #FF4343;
+    transform: scale(0.9);
+}
+#jacob{
+    padding: 50px 0;
+    background: #191919;
+}
+.jacob{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.jacob-icon div{
+    position: relative;
+    bottom: 250px;
+    left:100px;
+    height: 92px;
+    width: 90px;
+    background: #118DA8;
+    border-radius: 400px;
+}
+.jacob-icon a{
+    position: absolute;
+    top:3170px;
+    left:200px;
+    height: 71px;
+    color: white;
+    font-size: 50px;
+}
+.jacob-title{
+    padding-right: 50px;
+}
+.jacob-title h3{
+    font-weight: 400;
+    font-size: 18px;
+    color: #118DA8;
+}
+.jacob-title h1{
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+    padding: 30px 0;
+}
+.jacob-title p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+}
+#email {
+    background: #191919;
+    padding: 50px 0;
+}
+
+.email{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background: #000;
+    border-radius: 15px;
+    padding: 30px 0;
+}
+.email h1{
+    color:#000
+}
+
+.email-title h3{
+    font-weight: 400;
+    font-size: 18px;
+    color: #118DA8;
+}
+.email-title h1{
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+}
+.email-titile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #000;
+}
+.email input{
+    margin-bottom: 30px;
+    background: #000;
+    border: 2px solid #ffA500;
+    border-radius: 5px;
+    width: 435px;
+    height: 40px;
+    color: #FFFFFF;
+    text-transform:  uppercase;
+    font-size: 18px;
+}
+.email-name input::placeholder{
+    text-align: start;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.email-name button{
+    padding: 10px 40px;
+    background: dodgerblue;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-transform:  uppercase;
+    transition: .4s;
+}
+.email-name button:hover{
+    background: transparent;
+    border: 2px solid #FF4343;
+    transform: scale(0.9);
+}
+#nice{
+    padding: 50px 0;
+    background: #191919;
+}
+.nice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nice-block{
+    background: #000;
+    margin-bottom: 30px;
+    border-radius: 32px;
+    height: 464px;
+    width: 400px;
+}
+.nice-block ion-icon{
+    color: gold;
+    padding-top: 80px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.nice-block h1{
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 43px;
+    color: #FFFFFF;
+    padding: 50px;
+    padding-top: 45px;
+}
+.nice-block p{
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+#Castaway{
+    padding: 50px 0;
+    background: #191919;
+
+
+}
+.castaway{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction: column;
+}
+.castaway-icon {
+    padding: 30px 0;
+}
+.castaway-icon a{
+    color: #FFFFFF;
+    height: 20px;
+    font-size: 22px;
+ }
+.castaway-nice{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width:1100px;
+    height: 70px;
+    padding-bottom: 100px;
+}
+.castaway-title a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 17px;
+    color:white;
+    padding: 15px 10px;
+}
+.castaway-stile h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+.castaway-image{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
